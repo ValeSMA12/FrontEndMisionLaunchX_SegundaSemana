@@ -1,0 +1,45 @@
+body {
+  background-color: #F9DFDC;
+  margin: 0px;
+  text-align: center;
+  text-align:
+}
+
+h1{
+  font-family: 'Rampart One', cursive;
+  font-size: 4em;
+}
+
+h2{
+  font-family: 'Urbanist', sans-serif;
+}
+
+h3{
+  font-family: 'Urbanist', sans-serif;
+}
+
+.Bienvenida {
+  background-color: #FFD8CC;
+  width: 100%;
+  position: relative;
+  padding-top: 130px;
+}
+
+.Producto {
+
+}
+
+.Informacion {
+
+}
+
+.Pasteles{
+  height: 200px;
+  width: 200px;
+  display: inline;
+}
+
+#Marca {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
