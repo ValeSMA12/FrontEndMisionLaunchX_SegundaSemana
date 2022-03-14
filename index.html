@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Pastelería Cosmos</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico
+    <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Urbanist:wght@100&display=swap" rel="stylesheet">
@@ -12,41 +12,109 @@
   <body>
     <div class="Bienvenida">
       <h1 id="Marca">Pastelería Cosmos.</h1>
-      <p>Bienvenidos</p>
+      <img id="Logo" src="images/LogoPasteleria.png" alt="Logo">
+      <h2>Bienvenidos</h2>
+      <p>Somos una pequeña empresa que busca llevar sus sabores a distintos paladares</p>
     </div>
     <div  class="Producto">
-      <div class="Pasteles">
+      <div class="Pastel">
         <h2>Pasteles</h2>
-        <img class="Pasteles" src="images/1.Pastel.jpg" alt="pastel-image">
-        <img class="Pasteles" src="images/2.Pastel.jpg" alt="pastel-image">
-        <img class="Pasteles" src="images/3.Pastel.jpg" alt="pastel-image">
-        <img class="Pasteles" src="images/4.Pastel.jpg" alt="pastel-image">
-      </div>
-      <hr>
-      <div class="Sabores">
-        <h2>Sabores</h2>
-
+        <div class="Pas">
+          <img class="Pasteles" src="images/1.Pastel.jpg" alt="pastel-image">
+          <p>$200</p>
+        </div>
+        <div class="Pas">
+          <img class="Pasteles" src="images/2.Pastel.jpg" alt="pastel-image">
+          <p>$300</p>
+        </div>
+        <div class="Pas">
+          <img class="Pasteles" src="images/3.Pastel.jpg" alt="pastel-image">
+          <p>$360</p>
+        </div>
+        <div class="Pas">
+          <img class="Pasteles" src="images/4.Pastel.jpg" alt="pastel-image">
+          <p>$280</p>
+        </div>
       </div>
       <hr>
       <div class="Adornos">
         <h2>Adornos</h2>
-
+        <div class="Pas">
+          <img class="Pasteles" src="images/DecoracionFlora.jpg" alt="pastel-image">
+          <p>$50</p>
+        </div>
+        <div class="Pas">
+          <img class="Pasteles" src="images/DecoracionDripCake.jpg" alt="pastel-image">
+          <p>$70</p>
+        </div>
+        <div class="Pas">
+          <img class="Pasteles" src="images/DecoracionGeometrica.jpg" alt="pastel-image">
+          <p>$150</p>
+        </div>
+      </div>
+      <hr>
+      <div class="Sabores">
+        <h2>Sabores</h2>
+        <div class="Pas">
+          <img class="Pasteles" src="images/Fresa.jpg" alt="pastel-image">
+          <p>$50</p>
+        </div>
+        <div class="Pas">
+          <img class="Pasteles" src="images/Chocolate.jpg" alt="pastel-image">
+          <p>$70</p>
+        </div>
+        <div class="Pas">
+          <img class="Pasteles" src="images/Mango.jpg" alt="pastel-image">
+          <p>$150</p>
+        </div>
       </div>
       <hr>
       <div class="contact-me">
-        <h2>Contáctanos</h2>
-        <p>Puedes contactárnos por el siguiente medio</p>
-        <form action = "mailto:valeria-10-12@hotmail.com" method = "post">
+        <h2>Haz tu pedido</h2>
+        <p>Puedes realizar tu pedido llenando el siguiente formulario</p>
+        <form action = "" method = "post">
           <label for = "Nombre">Nombre: </label>
-          <input id = "Nombre" type = "text">
+          <br>
+          <input id = "Nombre" type ="text">
+          <br>
           <label for = "Telefono">Teléfono: </label>
-          <input id = "Telefono" type = "text">
+          <br>
+          <input id = "Telefono" type = "tel" maxlength="10">
+          <br>
           <label for = "Correo">Correo electrónico: </label>
-          <input id = "Correo" type = "text">
+          <br>
+          <input id = "Correo" type = "email">
+          <br>
           <label for = "Descripcion">Descripción: </label>
+          <br>
           <input id = "Descripcion" type = "text">
-          <label for = "Sabores">Sabores: </label>
-          <input id = "Sabores" type = "checkbox">
+          <br>
+          <br>
+          <label>Sabores: </label>
+          <br>
+          <input id = "sabor1" type = "checkbox">
+          <label for="sabor1">Fresa</label>
+          <br>
+          <input id = "sabor2" type = "checkbox">
+          <label for="sabor2">Chocolate</label>
+          <br>
+          <input id = "sabor3" type = "checkbox">
+          <label for="sabor3">Mango</label>
+          <br>
+          <br>
+          <label>Adornos: </label>
+          <br>
+          <input id = "adorno1" type = "checkbox">
+          <label for="adorno2">Decoración floral</label>
+          <br>
+          <input id = "adorno2" type = "checkbox">
+          <label for="adorno2">Decoración drip cake</label>
+          <br>
+          <input id = "adorno3" type = "checkbox">
+          <label for="adorno3">Decoracion geometrica</label>
+          <br>
+          <input type="submit" value="Save">
+          <br>
       </div>
     </div>
     <div class="Informacion">
